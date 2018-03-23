@@ -9,7 +9,9 @@
 #   in each cells folder
 #       determine if part of text or not
 #       if text
-#           make appropriate number of commits on the date of cell
+#           make appropriate number of commits on the date of cell (git python module)
 #       else
 #           make background number of commits on date of cell
 #   push changes to master
+
+
