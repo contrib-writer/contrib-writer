@@ -5,8 +5,10 @@ import json
 import git as pygit
 from datetime import date
 
+
 def clear_directory():
     os.system("rm -rf " + "cells/")
+
 
 def directory_structure(n_cells):
     os.system("mkdir " + "cells")
@@ -18,3 +20,8 @@ def directory_structure(n_cells):
         # if there is not a folder already at the path, create it
         if not os.path.isdir(c_path):
             os.system("mkdir " + c_path)
+
+
+def make_n_file(n_file_path):
+    os.system("touch " + n_file_path)
+
